@@ -1,4 +1,48 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+header {
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.header__wrapper {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__item {
+    margin-right: 47px;
+}
+
+.header__item:last-child{
+    margin-right: 0px;
+}
+
+.header__link{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: black;
+}
+
+
