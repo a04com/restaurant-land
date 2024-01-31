@@ -84,9 +84,10 @@ main {
 
 .banner {
     display: flex;
-    width: 304px;
+    width: 295px;
     height: 40px;
     background-color: #F955550D;
+    background-image: linear-gradient(to right, #F95555 25%, rgba(0, 0, 0,0) 25%);
     justify-content: space-between;
     align-items: center;
     border-radius: 600px;
@@ -108,7 +109,6 @@ main {
     line-height: 80px;
     font-family: 'Poppins';
     font-weight: 900;
-    font-style: bold;
     font-size: 73px;
 }
 
@@ -156,5 +156,44 @@ main {
 }
 
 .buttons {
+    margin-left: 13px;
+    max-width: 360px;
+    display: flex;
+    justify-content: space-between;
     padding-top: 60px;
+}
+
+.main__wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.burger-pic {
+    padding-top: 10px;
+}
+
+.burger-pic {
+    padding-top: 30px;
+    width: 300px;
+}
+
+.discount__banner {
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 23px;
+}
+
+.highlight {
+    color: #F95555;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
 }
